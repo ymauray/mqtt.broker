@@ -1,0 +1,17 @@
+{
+  "name": "mqttbroker",
+  "version": "0.1.0",
+  "description": "MQTT Broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "author": "Yannick Mauray <yannick.mauray@gmail.com> (https://github.com/ymauray)",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^7.0.4"
+  },
+  "dependencies": {
+    "rxjs": "^5.1.0"
+  }
+}

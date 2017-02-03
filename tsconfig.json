@@ -1,0 +1,13 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "lib": ["es2015", "dom"],
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules", "./lib/mqttws31.js", "./index.js"
+    ]
+}
