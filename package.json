@@ -1,6 +1,6 @@
 {
   "name": "mqtt.broker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MQTT Broker",
   "main": "index.js",
   "scripts": {
