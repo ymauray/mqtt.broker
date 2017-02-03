@@ -8,6 +8,6 @@
         "allowJs": true
     },
     "exclude": [
-        "node_modules", "./lib/mqttws31.js", "./index.js"
+        "node_modules", "./lib/mqttws31.js", "./index.js", "lib/index.d.ts"
     ]
 }

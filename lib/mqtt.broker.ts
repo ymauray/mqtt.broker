@@ -46,11 +46,8 @@ export class MQTTBroker {
 
     public send( payload: any, channel: string ) {
         let jsonPayload = JSON.stringify( payload );
-        console.log( "Building Paho.MQTT.Message ", jsonPayload );
         let message = new Paho.MQTT.Message( jsonPayload );
-        console.log( "Setting destinationName ", channel );
         message.destinationName = channel;
-        console.log( "Sending message to client ", message );
         this.client.send( message );
     }
 }
