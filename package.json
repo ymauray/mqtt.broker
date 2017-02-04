@@ -1,6 +1,6 @@
 {
   "name": "mqtt.broker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MQTT Broker",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "@types/node": "^7.0.4"
   },
   "dependencies": {
-    "rxjs": "^5.1.0"
+    "rxjs": "^5.1.0",
+    "ws": "^2.0.1"
   }
 }
